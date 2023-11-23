@@ -2,12 +2,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Gestor - Eventos</title>
 </head>
-<body>
-<h1><%= "Hello World!" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
-</body>
+<main>
+    <article>
+        <section class="pp-title">
+            <h1>Gestor de Eventos</h1>
+            <a href="registroArtista.jsp">Registrar Artista</a>
+            <a href="registroAsistente.jsp">Registrar Asistente</a>
+            <a href="registroEventos.jsp">Registrar Evento</a>
+
+        </section>
+    </article>
+</main>
 </html>
