@@ -23,7 +23,7 @@ public class RegistroArtistaServlet extends HttpServlet {
             if(artista.agregarArtista()){
                 request.setAttribute("status","Se ha registrado correctamente");
             }else{
-                request.setAttribute("status","Rut ya registrado!");
+                request.setAttribute("status","Nombre ya registrado!");
             }
 
         }else{
